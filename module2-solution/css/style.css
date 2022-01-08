@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+/*Base Styles*/
+
+.heading h1 {
+    text-align: center;
+}
+.container {
+    position:relative ;
+    width: 100%;    
+}
+.box {
+    border: 5px solid black;
+    margin-right: 10px;
+    padding: 0px;
+    background-color: cornsilk;
+}
+#n1 {
+    background-color: tomato;
+}
+.name {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 5px solid black;
+    font-weight:bold;
+    background-color: violet;
+    float: right;
+    margin-right: 4px;
+    margin-top: 0%;
+    border-top: 0px;
+    position: relative;
+}
+.content{
+    text-align: left;
+    width: 95%;
+    clear: right;
+    background-color: cornsilk;
+    /* border:  5px solid black; */
+    margin: 2.5%;
+    font-size: 20px;
+ }
+
+/* Large Devices */
+@media (min-width:992px) {
+.col-lg-4 {
+    width: 33%;
+    float: left;
+}
+}
+
+/* Medium Devices */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .box3 {
+        margin-top: 10px;
+    }
+}
+
+/* Samll Devices */ 
+@media(max-width: 767px) {
+    .col-sm-1 {
+        width: 100%;
+        float: left;
+    }
+    .box {
+        margin-bottom: 10px;
+    }
+}
