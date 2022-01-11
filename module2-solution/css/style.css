@@ -19,6 +19,12 @@
 #n1 {
     background-color: tomato;
 }
+#n2 {
+    background-color:green
+}
+#n3 {
+    background-color: violet;
+}
 .name {
     font-size: 20px;
     width: 100px;
